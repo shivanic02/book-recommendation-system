@@ -1,16 +1,16 @@
-# 📚 Book Recommendation System
+# Book Recommendation System
 
 This project builds a **collaborative filtering-based recommender system** that suggests books to users based on their personal preferences and previous ratings. The model leverages **sparse matrix operations** and **cosine similarity** to efficiently generate recommendations for over 100,000 users.
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 
 This project was completed as part of **IFT 511: Analyzing Big Data** at **Arizona State University**.
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The Book Crossing dataset can be downloaded through Kaggle:
 
@@ -36,7 +36,7 @@ The rating scale goes from 0 to 10.
 
 ---
 
-## 🔍 Features
+## Features
 
 - Loads and processes the Book-Crossing dataset
 - Converts user-book ratings into a **sparse matrix** using `scipy`  
@@ -46,7 +46,7 @@ The rating scale goes from 0 to 10.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python  
 - Pandas, NumPy  
@@ -56,7 +56,7 @@ The rating scale goes from 0 to 10.
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 - `Ratings.csv` – Raw user-book ratings  
 - `Sparse Matrix-1.ipynb` – Code for preparing the sparse matrix  
@@ -66,7 +66,7 @@ The rating scale goes from 0 to 10.
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. **Preprocessing**  
    - Cleans and encodes `User-ID` and `ISBN` as numerical indices  
@@ -82,7 +82,7 @@ The rating scale goes from 0 to 10.
 
 ---
 
-## 📊 Output
+## Output
 
 Each row in the output CSV contains:
 - `User_ID`: Internal index of the user
@@ -91,7 +91,7 @@ Each row in the output CSV contains:
 
 ---
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Add content-based filtering using book metadata
 - Integrate with a frontend UI
